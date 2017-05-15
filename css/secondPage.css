@@ -57,7 +57,7 @@ a:active {
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
-		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/first.jpg") center no-repeat;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/first.jpg") center no-repeat;
 		background-size: 40% 33%, auto;
 
 }
@@ -81,7 +81,7 @@ a:active {
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
-		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/Gary.jpg") center repeat;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/Gary.jpg") center repeat;
 		background-size: 40% 33%, 100% 200%;
 
 }
@@ -105,7 +105,7 @@ a:active {
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
-		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/ben.jpg") center repeat;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/ben.jpg") center repeat;
 		background-size: 40% 33%, 100% 200%;
 
 }
@@ -129,7 +129,7 @@ a:active {
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
-		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/digital.jpg") center repeat;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/digital.jpg") center repeat;
 		background-size: 40% 33%, 100% 300%;
 
 }
