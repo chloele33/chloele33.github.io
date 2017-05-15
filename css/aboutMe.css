@@ -1,0 +1,85 @@
+body {
+	background-color: white;
+	font-family: sans-serif;
+} 
+#header {
+	height: 10vw;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: 2vw;
+	font-weight: bold;
+    padding:0;
+	float:left;
+	font-family: 'SelenaRegular';
+	margin-left:5vw;
+}                              
+#nav {
+    list-style-type: none;
+	margin-left:20vw;
+	padding: 0;
+    background-color: white;
+    overflow: hidden;
+	height: 10vw;
+
+}                              
+li {
+	float:left;
+	display: inline;
+    font-size: 1.5vw;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 3.5vw 2vw;
+	
+}
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+a:hover {
+	color: grey;
+	font-weight: bold;
+}
+
+a:active {
+	color: black;
+}
+#picture img{
+	margin-left: 5vw;
+	margin-right: 60px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 42vw;
+	height: 50vw;
+	//width:480px;	
+	//height:570px;
+	//min-width: 280px;
+	//min-height: 368.5px;
+	float: left;
+}
+#introduction {
+	font-family: Calibri;
+	text-align: left;
+	margin-right: 5vw;
+}
+#introduction h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+#introduction p {
+	font-size: 18px;
+}
+#footer{
+	margin-top: 3vw;
+	border-top: 2px solid black;
+	text-align:center;
+	width:100%;
+	padding: 8vw;	
+	font-size:1.5vw;
+	border-spacing: 2vw;
+}

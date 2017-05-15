@@ -1,0 +1,161 @@
+body {
+		background-color: white;
+		font-family: sans-serif;
+} 
+
+#header {
+		height: 10vw;
+        background-color: white;
+        color:black;
+        text-align: center;
+        font-size: 2vw;
+		font-weight: bold;
+    	padding:0;
+		float:left;
+		font-family: 'SelenaRegular';
+		margin-left:5vw;
+}
+
+#nav {
+        list-style-type: none;
+		margin-left:20vw;
+		padding: 0;
+	    background-color: white;
+	    overflow: hidden;
+		height: 10vw;
+	
+ }                              
+li {
+		float:left;
+		display: inline;
+		font-size: 1.5vw;
+}
+li a {
+		display: block;
+		text-align: center;
+		padding: 3.5vw 2vw;
+		
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+		color: black;
+}
+a:hover {
+		color: grey;
+		font-weight: bold;
+}
+a:active {
+		color: black;
+}
+#aboutMe {
+		margin-bottom: 10px;
+		border-radius: 25px;
+		width: 97vw;
+		height: 33vw;
+		text-align: center;
+		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/first.jpg") center no-repeat;
+		background-size: 40% 33%, auto;
+
+}
+#aboutMe a {
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+}
+#aboutMe:hover {
+		opacity:0.5;
+}
+#aboutMe a:hover {
+		font-weight: bold;
+}
+#drawings {
+		margin-bottom: 10px;
+		border-radius: 25px;
+		width: 97vw;
+		height: 33vw;
+		text-align: center;
+		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/Gary.jpg") center repeat;
+		background-size: 40% 33%, 100% 200%;
+
+}
+#drawings a{
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+}
+#drawings:hover {
+		opacity:0.5;
+}
+#drawings a:hover {
+		font-weight: bold;
+}
+#paintings {
+		margin-bottom: 10px;
+		border-radius: 25px;
+		width: 97vw;
+		height: 33vw;
+		text-align: center;
+		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/ben.jpg") center repeat;
+		background-size: 40% 33%, 100% 200%;
+
+}
+#paintings a{
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+}
+#paintings:hover {
+		opacity:0.5;
+}
+#paintings a:hover {
+		font-weight: bold;
+}
+#digitalArt {
+		margin-bottom: 10px;
+		border-radius: 25px;
+		width: 97vw;
+		height: 33vw;
+		text-align: center;
+		background: url("artFiles/white.PNG") center no-repeat, url("artFiles/digital.jpg") center repeat;
+		background-size: 40% 33%, 100% 300%;
+
+}
+
+#digitalArt a{
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+}
+#digitalArt:hover {
+		opacity:0.5;
+}
+#digitalArt a:hover {
+		font-weight: bold;
+}
+
+#footer{
+	margin-top: 3vw;
+	border-top: 2px solid black;
+	text-align:center;
+	width:100%;
+	padding: 8vw;	
+	font-size:1.5vw;
+	border-spacing: 2vw;
+}
+	
