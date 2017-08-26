@@ -67,6 +67,8 @@ a:active {
 #aboutMe {
 		margin-bottom: 10px;
 		border-radius: 25px;
+		margin-left: 2vw;
+		margin-right: 2vw;
 		width: 97vw;
 		height: 33vw;
 		opacity: 0.8;
@@ -95,6 +97,8 @@ a:active {
 #artProjects {
 		margin-bottom: 10px;
 		border-radius: 25px;
+		margin-left: 2vw;
+		margin-right: 2vw;
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
@@ -182,6 +186,8 @@ a:active {
 #codingProjects {
 		margin-bottom: 10px;
 		border-radius: 25px;
+		margin-left: 2vw;
+		margin-right: 2vw;
 		width: 97vw;
 		height: 33vw;
 		text-align: center;
