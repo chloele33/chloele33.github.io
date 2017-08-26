@@ -3,39 +3,53 @@ body {
 		font-family: sans-serif;
 } 
 
-#header {
-		height: 10vw;
-        background-color: white;
-        color:black;
-        text-align: center;
-        font-size: 2vw;
-		font-weight: bold;
-    	padding:0;
-		float:left;
-		font-family: 'SelenaRegular';
-		margin-left:5vw;
+.flex-containter {
+	display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
 }
 
-#nav {
+.flex-container > * {
+    padding: 3vw;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
+header {
+		width: 100%;
+		height: 12vw;
+        background-color: white;
+        color:black;
+        font-size: 4vw;
+		font-weight: 20vw;
+		font-family: 'SelenaRegular';
+		margin-bottom:2vw;
+}
+
+nav {
+		width: 100%;
         list-style-type: none;
-		margin-left:22vw;
-		padding: 0;
 	    background-color: white;
-	    overflow: hidden;
-		height: 10vw;
-	
- }                              
-li {
-		float:left;
-		display: inline;
-		font-size: 1.8vw;
-}
-li a {
-		display: block;
+		margin-bottom: 4vw;
 		text-align: center;
-		padding: 3.5vw 2vw;
-		
+ }  
+
+.nav ul {
+	padding-left: 0;
+    list-style-type: none;
 }
+.nav ul li {
+	display: inline;
+	font-size: 2vw;
+}
+
+.nav ul a {
+    padding: 1vw 2vw;
+}
+
 
 a:link {
 	color: black;
@@ -46,7 +60,6 @@ a:visited {
 }
 a:hover {
 		color: grey;
-		／／font-weight: bold;
 }
 a:active {
 		color: black;
@@ -59,7 +72,7 @@ a:active {
 		opacity: 0.8;
 		text-align: center;
 		background: url("artFiles/white.png") center no-repeat, url("artFiles/first.jpg") center no-repeat;
-		background-size: 50% 33%, auto;
+		background-size: 50% 33%, 100% 300%;
 
 }
 #aboutMe a {
@@ -79,7 +92,7 @@ a:active {
 		font-size: 6vw;
 		top:42%;
 }
-#drawings {
+#artProjects {
 		margin-bottom: 10px;
 		border-radius: 25px;
 		width: 97vw;
@@ -90,7 +103,7 @@ a:active {
 		background-size: 50% 33%, 100% 200%;
 
 }
-#drawings a{
+#artProjects a{
 		color: black;
 		font-size:5vw;
 		font-family: 'SelenaRegular';
@@ -100,14 +113,14 @@ a:active {
 		font-weight: bold;
 
 }
-#drawings:hover {
+#artProjects:hover {
 		opacity:1.0;
 }
-#drawings a:hover {
+#artProjects a:hover {
 		font-size: 6vw;
 		top:42%;
 }
-#paintings {
+/*#paintings {
 		margin-bottom: 10px;
 		border-radius: 25px;
 		width: 97vw;
@@ -164,7 +177,7 @@ a:active {
 #digitalArt a:hover {
 		font-size: 6vw;
 		top:42%;
-}
+}*/
 
 #codingProjects {
 		margin-bottom: 10px;
@@ -197,7 +210,7 @@ a:active {
 	}
 
 #footer{
-	margin-top: 3vw;
+	margin-top: 2.5vw;
 	border-top: 2px solid black;
 	text-align:center;
 	width:100%;
@@ -205,4 +218,4 @@ a:active {
 	font-size:1.5vw;
 	border-spacing: 2vw;
 }
-	
+
