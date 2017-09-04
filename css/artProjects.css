@@ -9,7 +9,7 @@ body {
     background-color: white;
     color:black;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.6vw;
 	font-weight: bold;
     padding:0;
 	float:left;
@@ -18,8 +18,8 @@ body {
 }                              
 #nav {
 	list-style-type: none;
-	margin-left:25vw;
-	padding: 0;
+	margin-left:26vw;
+	padding-top: 1.5vw;
 	background-color: white;
 	overflow: hidden;
 	height: 10vw;
@@ -33,7 +33,7 @@ li {
 li a {
 	display: block;
 	text-align: center;
-	padding: 3.5vw 3.5vw;
+	padding: 3.5vw 4.5vw;
 	
 }
 a:link {
@@ -53,16 +53,18 @@ a:active {
 }
 
 #drawings {
-		margin-bottom: 10px;
+		margin-bottom: 5vw;
 		border-radius: 25px;
-		margin-left: 2vw;
-		margin-right: 2vw;
-		width: 97vw;
+		margin-left: 5vw;
+		margin-right: 1vw;
+		margin-top: 15px;
+		width: 27vw;
 		height: 33vw;
 		opacity: 0.8;
+		float: left;
 		text-align: center;
-		background: url("artFiles/white.png") center no-repeat, url("artFiles/first.jpg") center no-repeat;
-		background-size: 50% 33%, 100% 300%;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/bear.jpg") center no-repeat;
+		background-size: 100% 33%, 100% 100%;
 
 }
 #drawings a {
@@ -79,20 +81,22 @@ a:active {
 		opacity:1.0;
 }
 #drawings a:hover {
-		font-size: 6vw;
-		top:42%;
+		font-size: 5.5vw;
+		top:43%;
 }
 #paintings {
-		margin-bottom: 10px;
+		margin-bottom: 5vw;
 		border-radius: 25px;
-		margin-left: 2vw;
-		margin-right: 2vw;
-		width: 97vw;
+		margin-left: 1vw;
+		margin-right: 1vw;
+		margin-top: 15px;
+		width: 27vw;
 		height: 33vw;
 		text-align: center;
 		opacity: 0.8;
-		background: url("artFiles/white.png") center no-repeat, url("artFiles/Gary.jpg") center repeat;
-		background-size: 50% 33%, 100% 200%;
+		float: left;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/flower.jpeg") center repeat;
+		background-size: 100% 33%, 100% 100%;
 
 }
 #paintings a{
@@ -109,47 +113,22 @@ a:active {
 		opacity:1.0;
 }
 #paintings a:hover {
-		font-size: 6vw;
-		top:42%;
-}
-/*#paintings {
-		margin-bottom: 10px;
-		border-radius: 25px;
-		width: 97vw;
-		height: 33vw;
-		text-align: center;
-		background: url("artFiles/white.png") center no-repeat, url("artFiles/ben.jpg") center repeat;
-		background-size: 50% 33%, 100% 200%;
-		opacity: 0.8;
-
-
-}
-#paintings a{
-		color: black;
-		font-size:5vw;
-		font-family: 'SelenaRegular';
-		position: relative;
-		text-decoration: none;
-		top: 44%;
-		font-weight: bold;
-
-}
-#paintings:hover {
-		opacity:1.0;
-}
-#paintings a:hover {
-		font-size: 6vw;
-		top:42%;
+		font-size: 5.5vw;
+		top:43%;
 }
 #digitalArt {
-		margin-bottom: 10px;
+		margin-bottom: 5vw;
 		border-radius: 25px;
-		width: 97vw;
+		margin-left: 1vw;
+		margin-right: 5vw;
+		margin-top: 15px;
+		width: 27vw;
 		height: 33vw;
 		text-align: center;
+		float: left;
+		opacity: 0.8;
 		background: url("artFiles/white.png") center no-repeat, url("artFiles/digital.jpg") center repeat;
-		opacity: 0.8;
-		background-size: 50% 33%, 100% 300%;
+		background-size: 100% 33%, 140% 100%;
 
 }
 
@@ -167,44 +146,12 @@ a:active {
 		opacity:1.0;
 }
 #digitalArt a:hover {
-		font-size: 6vw;
-		top:42%;
-}*/
-
-#digitalArt {
-		margin-bottom: 10px;
-		border-radius: 25px;
-		margin-left: 2vw;
-		margin-right: 2vw;
-		width: 97vw;
-		height: 33vw;
-		text-align: center;
-		opacity: 0.8;
-		background: url("artFiles/white.png") center no-repeat, url("artFiles/render.png") center repeat;
-		background-size: 50% 33%, 100% 300%;
-
-}
-
-#digitalArt a{
-		color: black;
-		font-size:5vw;
-		font-family: 'SelenaRegular';
-		position: relative;
-		text-decoration: none;
-		top: 44%;
-		font-weight: bold;
-
-}
-#digitalArt:hover {
-		opacity:1.0;
-}
-#digitalArt a:hover {
-		font-size: 6vw;
-		top:42%;
+		font-size: 5.5vw;
+		top:43%;
 	}
 
 #footer{
-	margin-top: 2.5vw;
+	margin-top: 3vw;
 	border-top: 2px solid black;
 	text-align:center;
 	width:100%;
@@ -213,3 +160,74 @@ a:active {
 	border-spacing: 2vw;
 }
 
+#artContents {
+	margin-left: 5vw;
+    margin-right: 6vw;
+}
+
+#categoryHeader{
+	font-family: 'SelenaRegular';
+	font-size: 4vw;
+	margin-bottom: 0.2vw;
+}
+
+#projectGallery {
+	display: -ms-flexbox;
+  	-ms-flex-wrap: wrap;
+  	-ms-flex-direction: column;
+  	-webkit-flex-flow: row wrap; 
+  	flex-flow: row wrap; 
+  	display: -webkit-box;
+  	display: flex;
+}
+
+
+div.gallery {
+    border: none;
+    padding: 2vw;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 32.9999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -7,7 +7,7 @@ body {
     background-color: white;
     color:black;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.6vw;
 	font-weight: bold;
     padding:0;
 	float:left;
@@ -16,8 +16,8 @@ body {
 }                              
 #nav {
 	list-style-type: none;
-	margin-left:25vw;
-	padding: 0;
+	margin-left:26vw;
+	padding-top: 1.5vw;
 	background-color: white;
 	overflow: hidden;
 	height: 10vw;
@@ -31,7 +31,7 @@ li {
 li a {
 	display: block;
 	text-align: center;
-	padding: 3.5vw 3.5vw;
+	padding: 3.5vw 4.5vw;
 	
 }
 a:link {
