@@ -1,7 +1,9 @@
 body {
-	background-color: white;
-	font-family: sans-serif;
+		background-color: white;
+		font-family: sans-serif;
 } 
+
+
 #header {
 	height: 10vw;
     background-color: white;
@@ -21,8 +23,8 @@ body {
 	background-color: white;
 	overflow: hidden;
 	height: 10vw;
+}
 
-}                              
 li {
 	float:left;
 	display: inline;
@@ -49,31 +51,105 @@ a:hover {
 a:active {
 	color: black;
 }
-#picture img{
-	margin-left: 5vw;
-	margin-right: 5vw;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	width: 38vw;
-	height: 45vw;
-	max-width:480px;	
-	max-height:570px;
-	//min-width: 280px;
-	//min-height: 368.5px;
-	float: left;
+
+#drawings {
+		margin-bottom: 5vw;
+		border-radius: 25px;
+		margin-left: 5vw;
+		margin-right: 1vw;
+		margin-top: 15px;
+		width: 26vw;
+		height: 33vw;
+		opacity: 0.8;
+		float: left;
+		text-align: center;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/bear.jpg") center no-repeat;
+		background-size: 100% 33%, 100% 100%;
+
 }
-#introduction {
-	font-family: Calibri;
-	text-align: left;
-	margin-right: 5vw;
+#drawings a {
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+		font-weight: bold;
+
 }
-#introduction h1 {
-	font-size: 3vw;
-	font-weight: normal;
+#drawings:hover {
+		opacity:1.0;
 }
-#introduction p {
-	font-size: 2vw;
+#drawings a:hover {
+		font-size: 5.5vw;
+		top:43%;
 }
+#paintings {
+		margin-bottom: 5vw;
+		border-radius: 25px;
+		margin-left: 1vw;
+		margin-right: 1vw;
+		margin-top: 15px;
+		width: 26vw;
+		height: 33vw;
+		text-align: center;
+		opacity: 0.8;
+		float: left;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/flower.jpeg") center repeat;
+		background-size: 100% 33%, 100% 100%;
+
+}
+#paintings a{
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+		font-weight: bold;
+
+}
+#paintings:hover {
+		opacity:1.0;
+}
+#paintings a:hover {
+		font-size: 5.5vw;
+		top:43%;
+}
+#digitalArt {
+		margin-bottom: 5vw;
+		border-radius: 25px;
+		margin-left: 1vw;
+		margin-right: 5vw;
+		margin-top: 15px;
+		width: 26vw;
+		height: 33vw;
+		text-align: center;
+		float: left;
+		opacity: 0.8;
+		background: url("artFiles/white.png") center no-repeat, url("artFiles/digital.jpg") center repeat;
+		background-size: 100% 33%, 140% 100%;
+
+}
+
+#digitalArt a{
+		color: black;
+		font-size:5vw;
+		font-family: 'SelenaRegular';
+		position: relative;
+		text-decoration: none;
+		top: 44%;
+		font-weight: bold;
+
+}
+#digitalArt:hover {
+		opacity:1.0;
+}
+#digitalArt a:hover {
+		font-size: 5.5vw;
+		top:43%;
+	}
+
 #footer{
 	margin-top: 3vw;
 	border-top: 2px solid black;
@@ -84,12 +160,74 @@ a:active {
 	border-spacing: 2vw;
 }
 
-#resume {
-	font-size: 1.5vw;
-	width: 100%;
+#artContents {
+	margin-left: 5vw;
+    margin-right: 6vw;
 }
 
-#demoReel {
-	font-size: 1.5vw;
-	width: 100%;
+#categoryHeader{
+	font-family: 'SelenaRegular';
+	font-size: 4vw;
+	margin-bottom: 0.2vw;
+}
+
+#projectGallery {
+	display: -ms-flexbox;
+  	-ms-flex-wrap: wrap;
+  	-ms-flex-direction: column;
+  	-webkit-flex-flow: row wrap; 
+  	flex-flow: row wrap; 
+  	display: -webkit-box;
+  	display: flex;
+}
+
+
+div.gallery {
+    border: none;
+    padding: 2vw;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 32.9999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
