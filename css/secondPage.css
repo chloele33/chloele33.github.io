@@ -3,6 +3,10 @@ body {
 		font-family: sans-serif;
 } 
 
+:not(a) {
+	cursor:default;
+}
+
 .flex-containter {
 	display: -webkit-flex;
     display: flex;  
@@ -45,6 +49,8 @@ nav {
 	display: inline;
 	font-size: 2vw;
 }
+
+footer p {cursor:default}
 
 .nav ul a {
     padding: 1vw 2vw;

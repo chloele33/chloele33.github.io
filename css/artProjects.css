@@ -3,6 +3,10 @@ body {
 		font-family: sans-serif;
 } 
 
+:not(a) {
+	cursor:default;
+}
+
 
 #header {
 	height: 10vw;
