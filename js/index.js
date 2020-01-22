@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $(".page").removeClass("animate_content");
   $(".btn").on("click", function(e) {
     e.preventDefault();
     $(".page").addClass("animate_content");
