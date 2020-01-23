@@ -82,7 +82,7 @@ a:active {
   text-align: center;
   background: url("artFiles/white.png") center no-repeat,
     url("artFiles/first.jpg") center no-repeat;
-  background-size: 50% 33%, 100% 300%;
+  background-size: 50% 33%, 100% 280%;
 }
 #aboutMe a {
   color: black;
