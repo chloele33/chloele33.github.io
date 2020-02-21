@@ -50,13 +50,27 @@ a:visited {
   text-decoration: none;
 }
 
+.fade-out {
+  animation: fadeout 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .animate_content {
   animation: animate 1.5s ease;
   animation-fill-mode: forwards;
 }
 
 @keyframes animate {
-  20% {
+  25% {
     transform: scale(1, 0.002);
   }
   70% {

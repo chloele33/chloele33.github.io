@@ -2,6 +2,7 @@ $(document).ready(function() {
   $(".btn").on("click", function(e) {
     e.preventDefault();
     $(".page").addClass("animate_content");
+    $(".btn").addClass("fade-out");
     var href = $(this).attr("href");
     setTimeout(function() {
       window.location = href;
@@ -12,6 +13,7 @@ $(document).ready(function() {
   (function() {
     window.onpageshow = function(event) {
       $(".page").removeClass("animate_content");
+      $(".btn").removeClass("fade-out");
     };
   })();
 });
