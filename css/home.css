@@ -8,7 +8,7 @@ body {
   cursor: default;
 }
 
-.flex-containter {
+.flex-container {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -17,7 +17,7 @@ body {
 }
 
 .flex-container > * {
-  padding: 3vw;
+  padding: 2vw;
   -webkit-flex: 1 100%;
   flex: 1 100%;
 }
@@ -231,6 +231,23 @@ a:active {
 
 .page {
   background-color: white;
+}
+
+.fade {
+  animation: fadein 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  30% { 
+    opacity: 0; 
+  }
+  100%   { 
+    opacity: 1; 
+  }
 }
 
 .animate_content {
