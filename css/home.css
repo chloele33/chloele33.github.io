@@ -234,7 +234,7 @@ a:active {
 }
 
 .fade {
-  animation: fadein 3s;
+  animation: fadein 3.5s;
   animation-fill-mode: both;
 }
 

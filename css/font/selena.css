@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SelenaItalic";
+  src: url("Selena/Selena-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SelenaRegular";
+  src: url("Selena/Selena.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* The following rules are deprecated. */
+
+@font-face {
+  font-family: "Selena";
+  src: url("Selena/Selena-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Selena";
+  src: url("Selena/Selena.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
