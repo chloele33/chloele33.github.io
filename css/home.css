@@ -266,9 +266,9 @@ a:active {
   bottom: 0;
   right: 0;
   margin: auto auto;
-  overflow: hidden;
+  overflow: auto;
   animation: animate 1.5s ease;
-  animation-fill-mode: both;
+  animation-fill-mode: forwards;
 }
 
 @keyframes animate {
