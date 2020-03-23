@@ -1,0 +1,38 @@
+#nav {
+  list-style-type: none;
+  margin-left: 43vw;
+  padding-top: 2.7vw;
+  background-color: white;
+  overflow: hidden;
+  height: 10vw;
+  margin-bottom: 3vw;
+  display: flex;
+}
+
+li {
+  float: left;
+  font-size: 1.8vw;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 3.5vw 2vw;
+}
+
+a:link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  transition: color 0.25s ease-in;
+}
+
+a.active {
+  color: black;
+}

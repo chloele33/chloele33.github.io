@@ -10,48 +10,19 @@ body {
 #header {
   height: 10vw;
   background-color: white;
-  color: black;
+  color: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-size: 2.6vw;
   font-weight: bold;
   padding: 0;
   float: left;
-  font-family: "SelenaRegular";
+  font-family: garamond-premier-pro-display, serif;
+  font-style: normal;
   margin-left: 5vw;
 }
-#nav {
-  list-style-type: none;
-  margin-left: 26vw;
-  padding-top: 1.5vw;
-  background-color: white;
-  overflow: hidden;
-  height: 10vw;
-}
 
-li {
-  float: left;
-  display: inline;
-  font-size: 1.8vw;
-}
-li a {
-  display: block;
-  text-align: center;
-  padding: 3.5vw 4vw;
-}
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-a:hover {
-  color: grey;
-  ／／font-weight: bold;
-}
-
-a:active {
-  color: black;
+h1 {
+  font-weight: 400;
 }
 
 #drawings {

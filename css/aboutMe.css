@@ -1,103 +1,73 @@
 body {
-	background-color: white;
-	font-family: sans-serif;
-} 
+  background-color: white;
+  font-family: sans-serif;
+}
 
 :not(a) {
-	cursor:default;
+  cursor: default;
 }
 
 #header {
-	height: 10vw;
-    background-color: white;
-    color:black;
-    text-align: center;
-    font-size: 2.6vw;
-	font-weight: bold;
-    padding:0;
-	float:left;
-	font-family: 'SelenaRegular';
-	margin-left:5vw;
-}                              
-#nav {
-	list-style-type: none;
-	margin-left:26vw;
-	padding-top: 1.5vw;
-	background-color: white;
-	overflow: hidden;
-	height: 10vw;
-
-}                              
-li {
-	float:left;
-	display: inline;
-    font-size: 1.8vw;
-}
-li a {
-	display: block;
-	text-align: center;
-	padding: 3.5vw 4vw;
-	
-}
-a:link {
-	color: black;
+  height: 10vw;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 2.6vw;
+  font-weight: bold;
+  padding: 0;
+  float: left;
+  font-family: garamond-premier-pro-display, serif;
+  font-style: normal;
+  margin-left: 5vw;
 }
 
-a:visited {
-	color: black;
-}
-a:hover {
-	color: grey;
-	／／font-weight: bold;
+h1 {
+  font-weight: 400;
 }
 
-a:active {
-	color: black;
+#picture img {
+  margin-left: 5vw;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-right: 5vw;
+  width: 38vw;
+  height: 45vw;
+  max-width: 480px;
+  max-height: 570px;
+  float: left;
 }
-#picture img{
-	margin-left: 5vw;
-	margin-top: 15px;
-	margin-bottom: 30px;
-	margin-right: 5vw;
-	width: 38vw;
-	height: 45vw;
-	max-width:480px;	
-	max-height:570px;
-	//min-width: 280px;
-	//min-height: 368.5px;
-	float: left;
-}
+
 #introduction {
-	margin-left: 5vw;
-	font-family: Calibri;
-	text-align: left;
-	margin-right: 5vw;
+  margin-left: 5vw;
+  font-family: Calibri;
+  text-align: left;
+  margin-right: 5vw;
 }
 #introduction h1 {
-	font-size: 3vw;
-	font-weight: normal;
+  font-size: 3vw;
+  font-weight: normal;
 }
 #introduction p {
-	font-size: 1.8vw;
+  font-size: 1.8vw;
 }
-#footer{
-	margin-top: 3vw;
-	border-top: 2px solid black;
-	text-align:center;
-	width:100%;
-	padding: 8vw;	
-	font-size:1.5vw;
-	border-spacing: 2vw;
+#footer {
+  margin-top: 3vw;
+  border-top: 2px solid black;
+  text-align: center;
+  width: 100%;
+  padding: 8vw;
+  font-size: 1.5vw;
+  border-spacing: 2vw;
 }
 
 #resume {
-	font-size: 1.5vw;
-	width: 100%;
-	margin-left:5vw;
+  font-size: 1.5vw;
+  width: 100%;
+  margin-left: 5vw;
 }
 
 #demoReel {
-	font-size: 1.5vw;
-	width: 100%;
-	margin-left:5vw;
+  font-size: 1.5vw;
+  width: 100%;
+  margin-left: 5vw;
 }
