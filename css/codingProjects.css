@@ -120,16 +120,6 @@ h1 {
   top: 43%;
 }
 
-#footer {
-  margin-top: 3vw;
-  border-top: 2px solid black;
-  text-align: center;
-  width: 100%;
-  padding: 8vw;
-  font-size: 1.5vw;
-  border-spacing: 2vw;
-}
-
 #artContents {
   margin-left: 5vw;
   margin-right: 6vw;

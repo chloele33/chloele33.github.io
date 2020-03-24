@@ -1,0 +1,21 @@
+#footer {
+  margin-top: 2.5vw;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  padding-right: 8vw;
+  font-size: 1.5vw;
+  border-spacing: 2vw;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#footer img {
+  opacity: 0.5;
+  height: 2vw;
+  transition: opacity 0.2s ease-in;
+}
+
+#footer img:hover {
+  opacity: 1;
+  cursor: pointer;
+}

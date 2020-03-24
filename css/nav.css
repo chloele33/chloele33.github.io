@@ -9,12 +9,12 @@
   display: flex;
 }
 
-li {
+#nav li {
   float: left;
   font-size: 1.8vw;
 }
 
-li a {
+#nav li a {
   display: inline-block;
   text-align: center;
   padding: 3.5vw 2vw;
@@ -28,9 +28,14 @@ a:visited {
   color: black;
 }
 
-a:hover {
+#nav a:hover {
   color: black;
   transition: color 0.25s ease-in;
+}
+
+a:hover {
+  color: black;
+  transition: color 0.2s linear;
 }
 
 a.active {

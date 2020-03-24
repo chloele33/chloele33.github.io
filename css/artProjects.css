@@ -38,26 +38,14 @@ h1 {
   text-align: center;
   background: url("artFiles/white.png") center no-repeat,
     url("artFiles/bear.jpg") center no-repeat;
-  background-size: 100% 33%, 100% 100%;
+  background-size: 120% 26%, 100% 100%;
+  transition: opacity 400ms ease-in-out;
 }
-#drawings a {
-  display: inline-block;
-  font-size: 5vw;
-  color: black;
-  font-family: "SelenaRegular";
-  position: relative;
-  text-decoration: none;
-  top: 44%;
-  font-weight: bold;
-  transform: scale(1);
-  transition: transform 200ms ease-in-out;
-}
+
 #drawings:hover {
   opacity: 1;
 }
-#drawings a:hover {
-  transform: scale(1.1);
-}
+
 #paintings {
   margin-bottom: 5vw;
   border-radius: 25px;
@@ -71,26 +59,14 @@ h1 {
   float: left;
   background: url("artFiles/white.png") center no-repeat,
     url("artFiles/flower.jpeg") center repeat;
-  background-size: 100% 33%, 100% 100%;
+  background-size: 120% 26%, 100% 100%;
+  transition: opacity 400ms ease-in-out;
 }
-#paintings a {
-  display: inline-block;
-  color: black;
-  font-size: 5vw;
-  font-family: "SelenaRegular";
-  position: relative;
-  text-decoration: none;
-  top: 44%;
-  font-weight: bold;
-  transform: scale(1);
-  transition: transform 200ms ease-in-out;
-}
+
 #paintings:hover {
   opacity: 1;
 }
-#paintings a:hover {
-  transform: scale(1.1);
-}
+
 #digitalArt {
   margin-bottom: 5vw;
   border-radius: 25px;
@@ -104,26 +80,12 @@ h1 {
   opacity: 0.8;
   background: url("artFiles/white.png") center no-repeat,
     url("artFiles/digital.jpg") center repeat;
-  background-size: 100% 33%, 140% 100%;
+  background-size: 120% 26%, 140% 100%;
+  transition: opacity 400ms ease-in-out;
 }
 
-#digitalArt a {
-  display: inline-block;
-  color: black;
-  font-size: 5vw;
-  font-family: "SelenaRegular";
-  position: relative;
-  text-decoration: none;
-  top: 44%;
-  font-weight: bold;
-  transform: scale(1);
-  transition: transform 200ms ease-in-out;
-}
 #digitalArt:hover {
   opacity: 1;
-}
-#digitalArt a:hover {
-  transform: scale(1.1);
 }
 
 #menu {
@@ -131,14 +93,25 @@ h1 {
   margin-left: 2vw;
 }
 
-#footer {
-  margin-top: 3vw;
-  border-top: 2px solid black;
-  text-align: center;
-  width: 100%;
-  padding: 8vw;
-  font-size: 1.5vw;
-  border-spacing: 2vw;
+#menu a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 4vw;
+  font-family: "SelenaRegular";
+  position: relative;
+  text-decoration: none;
+  top: 44%;
+  font-weight: 400;
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+#menu a:hover {
+  transform: scale(1.1);
+}
+
+#menu:hover {
+  opacity: 1;
 }
 
 #artContents {
@@ -148,6 +121,7 @@ h1 {
 
 #categoryHeader {
   font-family: "SelenaRegular";
+  font-weight: 400;
   font-size: 4vw;
   margin-bottom: 0.2vw;
 }

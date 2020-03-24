@@ -167,16 +167,6 @@ a.active {
   top: 43%;
 }
 
-#footer {
-  margin-top: 2.5vw;
-  border-top: 2px solid black;
-  text-align: center;
-  width: 100%;
-  padding: 8vw;
-  font-size: 1.5vw;
-  border-spacing: 2vw;
-}
-
 .page {
   background-color: white;
 }
