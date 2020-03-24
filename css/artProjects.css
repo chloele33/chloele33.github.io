@@ -1,24 +1,5 @@
-body {
-  background-color: white;
-  font-family: sans-serif;
-}
-
 :not(a) {
   cursor: default;
-}
-
-#header {
-  height: 10vw;
-  background-color: white;
-  color: rgba(0, 0, 0, 0.6);
-  text-align: center;
-  font-size: 2.6vw;
-  font-weight: bold;
-  padding: 0;
-  float: left;
-  font-family: garamond-premier-pro-display, serif;
-  font-style: normal;
-  margin-left: 5vw;
 }
 
 h1 {
@@ -89,8 +70,8 @@ h1 {
 }
 
 #menu {
-  display: inline-block;
-  margin-left: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 #menu a {
@@ -143,7 +124,10 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 0.5px solid #777;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 div.gallery img {
@@ -151,10 +135,18 @@ div.gallery img {
   height: auto;
 }
 
+div.gallery img:hover {
+  cursor: pointer;
+}
+
 div.desc {
   padding: 5px;
   text-align: center;
   font-size: 15px;
+}
+
+div.desc:hover {
+  cursor: pointer;
 }
 
 * {

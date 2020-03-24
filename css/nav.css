@@ -1,17 +1,24 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
 #nav {
   list-style-type: none;
-  margin-left: 43vw;
-  padding-top: 2.7vw;
+  margin-right: 5vw;
+  padding-top: 1.2vw;
   background-color: white;
   overflow: hidden;
   height: 10vw;
-  margin-bottom: 3vw;
+  margin-bottom: 1.4vw;
   display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 #nav li {
   float: left;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 #nav li a {
@@ -40,4 +47,47 @@ a:hover {
 
 a.active {
   color: black;
+}
+
+#header h1 {
+  font-size: 4vw;
+}
+
+#header {
+  /* display: flex;
+  justify-content: center;
+  align-self: center; */
+  margin-left: 8vw;
+  float: left;
+  height: 10vw;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 2.6vw;
+  font-weight: bold;
+  font-family: garamond-premier-pro-display, serif;
+  font-style: normal;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 1200px) {
+  #header h1 {
+    font-size: 48px;
+  }
+
+  #nav {
+    padding-top: 11px;
+    margin-bottom: 10px;
+  }
+  #nav li {
+    font-size: 18px;
+  }
+
+  #nav li a {
+    padding: 45px 25px;
+  }
 }
